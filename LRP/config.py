@@ -1,0 +1,21 @@
+config = {
+    'seed': 42,
+    'dataset': 'cifar10',
+    'predictor': 'listnet',
+    'num_pairs': 200,
+    'K': 10,
+    'M': 500,
+    'batch_size': 32,
+    'hidden_dim': 64,
+    'mlp_hidden': [128,64],
+    'rf_trees': 200,
+    'lr': 1e-3,
+    'epochs': 10,
+    'eval_epochs': 2,
+    'final_epochs': 10,
+    'pop_size': 30,
+    'generations': 20,
+    'crossover_prob': 0.8,
+    'mutation_prob': 0.2,
+    'eta': 20
+}
